@@ -84,10 +84,8 @@ var Repos = React.createClass({
     console.log(this.state.data);
     return (
       <ul>
-      {
-        <p>I tried to get my repos to show, but react is wierd. check console for objects</p>
-        <p>Will probably resubmit for full points</p>
-      }
+        <li>I tried to get my repos to show, but react is weird. check console for objects</li>
+        <li>Will probably resubmit for full points</li>
       </ul>
     );
   }
